@@ -1,0 +1,103 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1B1924;
+    user-select: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img {
+    width: 90px;
+    margin: 10px auto;
+}
+
+h1, h3 {
+    color: #FFFFFF;
+    margin: 20px auto;
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 30px auto;
+
+}
+
+textarea {
+    background: #444059;
+    padding: 15px;
+    border-radius: 5px;
+    color: #8F8F8F;
+    font-size: 16.5px;
+}
+
+button {
+    background: #28A9F1;
+    padding: 20px;
+    color: #04131C;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 12.5px 10px;
+    max-width: calc(50% - 30px);
+    text-align: center;
+    border-radius: 10px;
+    background: #444059;
+    color: #8F8F8F;
+    border: 0;
+    font-size: 16.5px;
+}
+
+.endorsements {
+    background: #FFFFFF;
+    padding: 5px 15px;
+    margin-bottom: 30px;
+}
+
+.from-to {
+    font-weight: bold;
+    font-size: 16.5px;
+}
+
+.likes {
+    font-size: 16.5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.from {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.from p {
+    margin-top: 0;
+}
+
+.likes:hover {
+    cursor: pointer;
+}
